@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "wyrmcraft-tweaks",
+	"version": "${version}",
+	"name": "wyrmcraft-tweaks",
+	"description": "Mod for all things Wyrmcraft",
+	"authors": [
+		"DR4G0NW4RR10R"
+	],
+	"contact": {
+		"homepage": "https://DR4G0NW4RR10R.com/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/wyrmcraft-tweaks/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.dr4g0nw4rr10r.wyrmcrafttweaks.WyrmcraftTweaks"
+		],
+		"fabric-datagen": [
+			"com.dr4g0nw4rr10r.wyrmcrafttweaks.WyrmcraftTweaksDataGenerator"
+		],
+		"client": [
+			"com.dr4g0nw4rr10r.wyrmcrafttweaks.WyrmcraftTweaksClient"
+		]
+	},
+	"mixins": [
+		"wyrmcraft-tweaks.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

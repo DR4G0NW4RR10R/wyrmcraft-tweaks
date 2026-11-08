@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.dr4g0nw4rr10r.wyrmcrafttweaks.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
